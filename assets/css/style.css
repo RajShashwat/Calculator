@@ -11,17 +11,11 @@ body {
 
 #calculator {
   width: 320px;
-  height: 520px;
   background-color: #eaedef;
   margin: 0 auto;
   top: 20px;
   position: relative;
   border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-#result {
-  height: 120px;
 }
 
 #history {
@@ -78,11 +72,13 @@ body {
 button:nth-child(1) {
   font-size: 20px;
   background-color: #9477af;
+  border-radius: 10%;
 }
 
 button:nth-child(2) {
   font-size: 20px;
   background-color: #7d93e0;
+  border-radius: 10%;
 }
 
 button:nth-child(3) {
